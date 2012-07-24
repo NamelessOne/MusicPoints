@@ -8,8 +8,8 @@ public class User {
 	private String name;
 	private String email;
 	private String about;
+	private String user_pic_file;
 	private int show_contacts;
-	private int user_picture_id;
 	private Set reviews = new HashSet();
 	private Set musicPoints = new HashSet();
 
@@ -53,14 +53,6 @@ public class User {
 		this.show_contacts = show_contacts;
 	}
 
-	public int getUser_picture_id() {
-		return user_picture_id;
-	}
-
-	public void setUser_picture_id(int user_picture_id) {
-		this.user_picture_id = user_picture_id;
-	}
-
 	public Set getReviews() {
 		return reviews;
 	}
@@ -75,5 +67,13 @@ public class User {
 
 	public void setMusicPoints(Set musicPoints) {
 		this.musicPoints = musicPoints;
+	}
+
+	public String getUser_pic_file() {
+		return user_pic_file;
+	}
+
+	public void setUser_pic_file(String user_pic_file) {
+		this.user_pic_file = user_pic_file;
 	}
 }

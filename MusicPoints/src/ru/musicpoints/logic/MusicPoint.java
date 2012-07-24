@@ -6,6 +6,9 @@ import java.util.Set;
 public class MusicPoint {
 	private int id;
 	private int ration;
+	private int map_point_id;
+	private String phones;
+	private String emails;
 	private String name;
 	private String address;
 	private String description;
@@ -19,6 +22,7 @@ public class MusicPoint {
 	private Set videous = new HashSet();
 	private Set users = new HashSet();
 	private Set metroStations = new HashSet();
+	
 
 	public int getId() {
 		return id;
@@ -138,5 +142,29 @@ public class MusicPoint {
 
 	public void setMetroStations(Set metroStations) {
 		this.metroStations = metroStations;
+	}
+
+	public int getMap_point_id() {
+		return map_point_id;
+	}
+
+	public void setMap_point_id(int map_point_id) {
+		this.map_point_id = map_point_id;
+	}
+
+	public String getPhones() {
+		return phones;
+	}
+
+	public void setPhones(String phones) {
+		this.phones = phones;
+	}
+
+	public String getEmails() {
+		return emails;
+	}
+
+	public void setEmails(String emails) {
+		this.emails = emails;
 	}
 }
