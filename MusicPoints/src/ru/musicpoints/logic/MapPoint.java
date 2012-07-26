@@ -1,6 +1,7 @@
 package ru.musicpoints.logic;
 
 import java.util.HashSet;
+import java.*;
 import java.util.Set;
 
 public class MapPoint {
