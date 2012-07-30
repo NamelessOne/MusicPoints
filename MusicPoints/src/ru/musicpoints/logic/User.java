@@ -3,8 +3,7 @@ package ru.musicpoints.logic;
 import java.util.HashSet;
 import java.util.Set;
 
-public class User {
-	private int id;
+public class User extends ModelEntity {
 	private String name;
 	private String email;
 	private String about;
@@ -12,14 +11,6 @@ public class User {
 	private int show_contacts;
 	private Set reviews = new HashSet();
 	private Set musicPoints = new HashSet();
-
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
 
 	public String getName() {
 		return name;

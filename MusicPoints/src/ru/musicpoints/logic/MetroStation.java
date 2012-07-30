@@ -3,19 +3,10 @@ package ru.musicpoints.logic;
 import java.util.HashSet;
 import java.util.Set;
 
-public class MetroStation {
-	private int id;
+public class MetroStation extends ModelEntity {
 	private String name;
 	private int line;
 	private Set metroPoints = new HashSet();
-
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
 
 	public String getName() {
 		return name;

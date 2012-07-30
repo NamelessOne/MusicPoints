@@ -1,17 +1,8 @@
 package ru.musicpoints.logic;
 
-public class MetroPoint {
-	private int ID;
+public class MetroPoint extends ModelEntity {
 	private int metro_station_id;
 	private int music_point_id;
-
-	public int getID() {
-		return ID;
-	}
-
-	public void setID(int iD) {
-		ID = iD;
-	}
 
 	public int getMetro_station_id() {
 		return metro_station_id;

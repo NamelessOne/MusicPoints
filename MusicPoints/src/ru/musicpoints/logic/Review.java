@@ -2,21 +2,12 @@ package ru.musicpoints.logic;
 
 import java.sql.Date;
 
-public class Review {
-	private int id;
+public class Review extends ModelEntity {
 	private int user_id;
 	private Date date;
 	private String text;
 	private int mark;
 	private int music_point_id;
-
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
 
 	public int getUser_id() {
 		return user_id;

@@ -4,20 +4,13 @@ import java.util.HashSet;
 import java.*;
 import java.util.Set;
 
-public class MapPoint {
-	private int id;
+public class MapPoint extends ModelEntity {
 	private String place_x;
 	private String place_y;
 	private String map_x;
 	private String map_y;
 	private String link;
 	private Set musicPoints = new HashSet();
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
 	public String getPlace_x() {
 		return place_x;
 	}

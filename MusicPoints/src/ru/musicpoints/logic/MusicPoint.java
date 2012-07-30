@@ -3,8 +3,7 @@ package ru.musicpoints.logic;
 import java.util.HashSet;
 import java.util.Set;
 
-public class MusicPoint {
-	private int id;
+public class MusicPoint extends ModelEntity{
 	private int ration;
 	private int map_point_id;
 	private String phones;
@@ -22,15 +21,6 @@ public class MusicPoint {
 	private Set videous = new HashSet();
 	private Set users = new HashSet();
 	private Set metroStations = new HashSet();
-	
-
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
 
 	public int getRation() {
 		return ration;

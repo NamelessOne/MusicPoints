@@ -1,17 +1,8 @@
 package ru.musicpoints.logic;
 
-public class Photo {
-	private int id;
+public class Photo extends ModelEntity{
 	private String file_name;
 	private int point_id;
-
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
 
 	public String getFile_name() {
 		return file_name;

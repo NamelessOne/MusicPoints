@@ -1,17 +1,8 @@
 package ru.musicpoints.logic;
 
-public class Bookmark {
-	private int ID;
+public class Bookmark extends ModelEntity {
 	private int user_id;
 	private int music_point_id;
-
-	public int getID() {
-		return ID;
-	}
-
-	public void setID(int iD) {
-		ID = iD;
-	}
 
 	public int getUser_id() {
 		return user_id;
